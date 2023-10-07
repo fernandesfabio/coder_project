@@ -2,40 +2,44 @@
 <html lang="pt-BR">
 
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <meta charset="UTF-8">
   <meta name="description" content="Descubra um mundo de entretenimento cinematográfico no nosso site de filmes online. Explore uma vasta seleção de filmes, desde lançamentos recentes a clássicos atemporais. Encontre informações detalhadas sobre cada filme, incluindo elenco, direção e avaliações. Assista aos trailers e fique atualizado com as últimas notícias do mundo do cinema. Satisfaça sua paixão pelo cinema conosco">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="Filmes online, Filmes em HD, Cinema em casa">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="favicon icon" href="./images/faviconCoder.ico">
+  <link rel="stylesheet" href="./styles/index.css">
   <title>Project Coder Films</title>
 </head>
 
 <body>
-  <header>
-    <img src="./images/coder.png" alt="Logo CoderFlix">
-    <nav>
-      <ul>
-        <li>
-          <a href="index.html">
-            <img src="./images/homeicon.png" alt="Icone Home">
+  <header class="header">
+    <img src="./assets/coder.png" alt="Logo CoderFlix">
+    <nav class="nav">
+      <ul class="nav__menu">
+        <li class="nav__box">
+          <img src="./assets/homeicon.png" alt="Icone Home">
+          <a class="nav__link" href="index.html">
             HOME
           </a>
         </li>
-        <li>
-          <a href="./pages/filmes.html">
-            <img src="./images/tvicon.png" alt="Icone TV">
+        <li class="nav__box">
+          <img src="./assets/tvicon.png" alt="Icone TV">
+          <a class="nav__link" href="./pages/filmes.html">
             FILMES
           </a>
         </li>
-        <li>
-          <a href="./pages/series.html">
-            <img src="./images/tvicon.png" alt="Icone TV">
+        <li class="nav__box">
+          <img src="./assets/tvicon.png" alt="Icone TV">
+          <a class="nav__link" href="./pages/series.html">
             SERIES
           </a>
         </li>
-        <li>
-          <a href="./pages/contatos.html">
-            <img src="./images/@icon.png" alt="Icone @">
+        <li class="nav__box">
+          <img src="./assets/@icon.png" alt="Icone @">
+          <a class="nav__link" href="./pages/contatos.html">
             CONTATO
           </a>
         </li>
@@ -49,11 +53,11 @@
       <span>9 Episodes - 2022 - Fantasy - Actions</span>
       <div>
         <button>
-          <img src="./images/playicon.png" alt="Play Icon">
+          <img src="./assets/playicon.png" alt="Play Icon">
           Assistir Trailer
         </button>
         <button>
-          <img src="./images/plusicon.png" alt="Plus Icon">
+          <img src="./assets/plusicon.png" alt="Plus Icon">
           Saiba mais
         </button>
       </div>
@@ -61,27 +65,27 @@
     <section>
       <div>
         <h2>Populares</h2>
-        <a href="./series.html">Ver Mais<span>+</span></a>
+        <a href="./pages/series.html">Ver Mais<span>+</span></a>
       </div>
       <div>
         <div>
           <a href="#">
-            <img src="./images/HOUSE OF DRAGONS.png" alt="Capa filme/serie Popular">
+            <img src="./assets/HOUSE OF DRAGONS.png" alt="Capa filme/serie Popular">
           </a>
           <a href="#">
-            <img src="./images/THE RINGS OF POWER.png" alt="Capa filme/serie Popular">
+            <img src="./assets/THE RINGS OF POWER.png" alt="Capa filme/serie Popular">
           </a>
           <a href="#">
-            <img src="./images/WANDINHA.png" alt="Capa filme/serie Popular">
+            <img src="./assets/WANDINHA.png" alt="Capa filme/serie Popular">
           </a>
           <a href="#">
-            <img src="./images/THE LAST OF US.png" alt="Capa filme/serie Popular">
+            <img src="./assets/THE LAST OF US.png" alt="Capa filme/serie Popular">
           </a>
           <a href="#">
-            <img src="/images/THE HANDMAID'S TALE.png" alt="Capa filme/serie Popular">
+            <img src="/assets/THE HANDMAID'S TALE.png" alt="Capa filme/serie Popular">
           </a>
           <a href="#">
-            <img src="./images/ANDOR.png" alt="Capa filme/serie Popular">
+            <img src="./assets/ANDOR.png" alt="Capa filme/serie Popular">
           </a>
         </div>
       </div>
@@ -121,56 +125,56 @@
   </main>
   <footer>
     <div>
-      <img src="./images/coder.png" alt="Logo CoderFlix">
+      <img src="./assets/coder.png" alt="Logo CoderFlix">
       <div>
         <div>
           <strong>Igor<span>Coelho</span></strong>
           <span>Front-end Developer</span>
           <a href="#">
-            <img src="./images/iconGitHub.png" alt="GitHub Logo">
+            <img src="./assets/iconGitHub.png" alt="GitHub Logo">
           </a>
           <a href="#">
-            <img src="./images/iconLinkedInIn.png" alt="Linkedin Logo">
+            <img src="./assets/iconLinkedInIn.png" alt="Linkedin Logo">
           </a>
         </div>
         <div>
           <strong>Anna<span>Nascimento</span></strong>
           <span>Front-end Developer</span>
           <a href="#">
-            <img src="./images/iconGitHub.png" alt="GitHub Logo">
+            <img src="./assets/iconGitHub.png" alt="GitHub Logo">
           </a>
           <a href="#">
-            <img src="./images/iconLinkedInIn.png" alt="Linkedin Logo">
+            <img src="./assets/iconLinkedInIn.png" alt="Linkedin Logo">
           </a>
         </div>
         <div>
           <strong>Elton<span>Betoni</span></strong>
           <span>Front-end Developer</span>
           <a href="#">
-            <img src="./images/iconGitHub.png" alt="GitHub Logo">
+            <img src="./assets/iconGitHub.png" alt="GitHub Logo">
           </a>
           <a href="#">
-            <img src="./images/iconLinkedInIn.png" alt="Linkedin Logo">
+            <img src="./assets/iconLinkedInIn.png" alt="Linkedin Logo">
           </a>
         </div>
         <div>
           <strong>Fabio<span>Fernandes</span></strong>
           <span>Front-end Developer</span>
           <a href="#">
-            <img src="./images/iconGitHub.png" alt="GitHub Logo">
+            <img src="./assets/iconGitHub.png" alt="GitHub Logo">
           </a>
           <a href="#">
-            <img src="./images/iconLinkedInIn.png" alt="Linkedin Logo">
+            <img src="./assets/iconLinkedInIn.png" alt="Linkedin Logo">
           </a>
         </div>
         <div>
           <strong>Renata<span>França</span></strong>
           <span>Front-end Developer</span>
           <a href="#">
-            <img src="./images/iconGitHub.png" alt="GitHub Logo">
+            <img src="./assets/iconGitHub.png" alt="GitHub Logo">
           </a>
           <a href="#">
-            <img src="./images/iconLinkedInIn.png" alt="Linkedin Logo">
+            <img src="./assets/iconLinkedInIn.png" alt="Linkedin Logo">
           </a>
         </div>
       </div>
@@ -178,12 +182,12 @@
     <div>
       <div>
         <strong><span>CODER</span>FLIX</strong>
-        <img src="./images/iconCreativeCommons.png" alt="Copyright Icon">
+        <img src="./assets/iconCreativeCommons.png" alt="Copyright Icon">
         <span>2023 - 2023</span>
       </div>
       <div>
         <span>Website created by Igor Coelho, Anna Nascimento, Elton Betoni, Fabio Fernandes Renata França</span>
-        <img src="./images/iconCreativeCommons.png" alt="Copyright Icon">
+        <img src="./assets/iconCreativeCommons.png" alt="Copyright Icon">
         <span>2023 Copyright</span>
       </div>
     </div>
