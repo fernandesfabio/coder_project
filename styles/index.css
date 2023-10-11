@@ -318,3 +318,60 @@ body {
   background-size: cover;
 }
 
+/* Footer */
+
+footer > .interface{
+  margin-top: 3.2rem;
+  background-color: #212121;
+  padding: 1.5rem 4%;
+  box-shadow: 0 0 10px 3px #ffffff1d;
+  font-family: 'Montserrat', sans-serif;
+}
+.logo--footer{
+  align-items: center;
+  text-align: center;
+}
+.logo--footer img{
+  width: 18.7rem; 
+}
+.coders{       
+  width: 100%;
+  padding: 1.6rem;
+  background-color: #212121;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  gap: 3.8rem;
+}
+.social{
+  list-style: none;
+  line-height: 1.6rem;
+}
+.social li{
+  color: #fff; 
+  text-align: center;        
+}
+.social a{
+  text-decoration: none;
+}
+.social span{
+  color: #59A928;
+  font-size: 1.3rem;
+}
+.social i{
+  padding: 0.4rem;
+  color: #59A928;
+  font-size: 1.3rem;    
+}
+.line-footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  width: 100%;
+  padding: 0.6rem 4%;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+.text--small{
+  font-size: .8rem
+}
