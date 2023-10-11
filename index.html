@@ -47,28 +47,33 @@
     </nav>
   </header>
   <main>
-    <div>
-      <span>Novidade</span>
-      <h3>The Witcher</h3>
-      <span>9 Episodes - 2022 - Fantasy - Actions</span>
-      <div>
-        <button>
-          <img src="./assets/playicon.png" alt="Play Icon">
-          Assistir Trailer
-        </button>
-        <button>
-          <img src="./assets/plusicon.png" alt="Plus Icon">
-          Saiba mais
-        </button>
+    <section class="hero">
+      <div class="hero__container">
+        <span class="tag">Novidade</span>
+        <h3 class="hero__title">The Witcher</h3>
+        <span class="hero__subtitle">9 Episodes - 2022 - Fantasy - Actions</span>
+        <div class="btn__container">
+          <button class="btn-watch">
+            <img src="./assets/playicon.png" alt="Play Icon">
+            Assistir Trailer
+          </button>
+          <button class="btn-moreInfo">
+            <img src="./assets/plusicon.png" alt="Plus Icon">
+            Saiba mais
+          </button>
+        </div>
       </div>
-    </div>
-    <section>
-      <div>
-        <h2>Populares</h2>
-        <a href="./pages/series.html">Ver Mais<span>+</span></a>
+    </section>
+    <section class="populares">
+      <div class="section__title">
+        <h2 class="title-h2">Populares</h2>
+        <a class="btn-MoreSee" href="./pages/series.html">
+          Ver mais
+          <img src="./assets/plusicongreen.png" alt="">
+        </a>
       </div>
-      <div>
-        <div>
+      <div class="cards__container">
+        <div class="cards">
           <a href="#">
             <img src="./assets/HOUSE OF DRAGONS.png" alt="Capa filme/serie Popular">
           </a>
@@ -90,35 +95,53 @@
         </div>
       </div>
     </section>
-    <section>
-      <h2>TOP 5</h2>
-      <div>
-        <div>
-          <strong>1</strong>
-          <h3>A Roda do Tempo</h3>
-          <span>Serie - 2023</span>
+    <section class="top5">
+      <h2 class="title-h2 mb-4">TOP 5</h2>
+      <div class="top5__container">
+        <div id="top1" class="top__card">
+          <div class="top__card__info">
+            <strong class="top__position">1</strong>
+            <div class="top__info">
+              <h3 class="top__info--title">A Roda do Tempo</h3>
+              <span class="top__info--subtitle">Serie - 2023</span>
+            </div>
+          </div>
         </div>
-        <div>
-          <strong>2</strong>
-          <h3>O Continental</h3>
-          <span>Filme - 2023</span>
+        <div id="top2" class="top__card">
+          <div class="top__card__info">
+            <strong class="top__position">2</strong>
+            <div class="top__info">
+              <h3 class="top__info--title">A Roda do Tempo</h3>
+              <span class="top__info--subtitle">Serie - 2023</span>
+            </div>
+          </div>
         </div>
-        <div>
-          <strong>3</strong>
-          <h3>Megan</h3>
-          <span>Filme - 2021</span>
+        <div id="top3" class="top__card">
+          <div class="top__card__info">
+            <strong class="top__position">3</strong>
+            <div class="top__info">
+              <h3 class="top__info--title">A Roda do Tempo</h3>
+              <span class="top__info--subtitle">Serie - 2023</span>
+            </div>
+          </div>
         </div>
-
-        <div>
-          <strong>4</strong>
-          <h3>Sede Assassina</h3>
-          <span>Filme - 2021</span>
+        <div id="top4" class="top__card">
+          <div class="top__card__info">
+            <strong class="top__position">4</strong>
+            <div class="top__info">
+              <h3 class="top__info--title">A Roda do Tempo</h3>
+              <span class="top__info--subtitle">Serie - 2023</span>
+            </div>
+          </div>
         </div>
-
-        <div>
-          <strong>5</strong>
-          <h3>Math das Estrelas</h3>
-          <span>Serie - 2023</span>
+        <div id="top5" class="top__card">
+          <div class="top__card__info">
+            <strong class="top__position">5</strong>
+            <div class="top__info">
+              <h3 class="top__info--title">A Roda do Tempo</h3>
+              <span class="top__info--subtitle">Serie - 2023</span>
+            </div>
+          </div>
         </div>
       </div>
     </section>

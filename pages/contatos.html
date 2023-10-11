@@ -2,38 +2,42 @@
 <html lang="pt-BR">
 
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Project Coder Films - Contato</title>
+  <link rel="stylesheet" href="../styles/contatos.css">
   <link rel="favicon icon" href="../assets/faviconCoder.ico">
 </head>
 
 <body>
-  <header>
+  <header class="header">
     <img src="../assets/coder.png" alt="Logo CoderFlix">
-    <nav>
-      <ul>
-        <li>
-          <a href="../index.html">
-            <img src="../assets/homeicon.png" alt="Icone Home">
+    <nav class="nav">
+      <ul class="nav__menu">
+        <li class="nav__box">
+          <img src="../assets/homeicon.png" alt="Icone Home">
+          <a class="nav__link" href="../index.html">
             HOME
           </a>
         </li>
-        <li>
-          <a href="./filmes.html">
-            <img src="../assets/tvicon.png" alt="Icone TV">
+        <li class="nav__box">
+          <img src="../assets/tvicon.png" alt="Icone TV">
+          <a class="nav__link" href="./filmes.html">
             FILMES
           </a>
         </li>
-        <li>
-          <a href="./series.html">
-            <img src="../assets/tvicon.png" alt="Icone TV">
+        <li class="nav__box">
+          <img src="../assets/tvicon.png" alt="Icone TV">
+          <a class="nav__link" href="./series.html">
             SERIES
           </a>
         </li>
-        <li>
-          <a href="./contatos.html">
-            <img src="../assets/@icon.png" alt="Icone @">
+        <li class="nav__box">
+          <img src="../assets/@icon.png" alt="Icone @">
+          <a class="nav__link" href="./contatos.html">
             CONTATO
           </a>
         </li>
@@ -43,79 +47,64 @@
 
   <main>
     <section>
-      <div>
-        <h2>CONTAC US</h2>
-        <p>Get in contact with the people who developed this unofficial website as the final project of a web development course at coderhouse.</p>
-        <div>
-          <strong>Igor <span>Coelho</span></strong>
-          <span>Front-End Developer</span>
-          <a href="#">
-            <img src="../assets/iconGitHub.png" alt="GitHub Logo">
-          </a>
-          <a href="#">
-            <img src="../assets/iconLinkedInIn.png" alt="Linkedin Logo">
-          </a>
+      <div class="box1">
+        <h2 id="text1">CONTACT US</h2>
+        <p id="text2">Get in contact with the people who developed this <br>
+          unoficial website as the final project of a web <br>
+          development course at coderhouse.
+        </p>
+        <div id="igor">
+          <p class="name"><b>Igor</b> Coelho</p>
+          <p class="subtext">Front-End Developer</p>
+          <img class="icon_git" src="../assets/iconGitHub.png" alt="Ícone do GitHub">
+          <img class="icon_link" src="../assets/iconLinkedInIn.png" alt="Ícone do Linkedin">
         </div>
-        <div>
-          <strong>Anna <span>Nascimento</span></strong>
-          <span>Front-End Developer</span>
-          <a href="#">
-            <img src="../assets/iconGitHub.png" alt="GitHub Logo">
-          </a>
-          <a href="#">
-            <img src="../assets/iconLinkedInIn.png" alt="Linkedin Logo">
-          </a>
+        <div id="anna">
+          <p class="name"><b>Anna</b> Nascimento</p>
+          <p class="subtext">Front-End Developer</p>
+          <img class="icon_git" src="../assets/iconGitHub.png" alt="Ícone do GitHub">
+          <img class="icon_link" src="../assets/iconLinkedInIn.png" alt="Ícone do Linkedin">
         </div>
-        <div>
-          <strong>Elton <span>Betoni</span></strong>
-          <span>Front-End Developer</span>
-          <a href="#">
-            <img src="../assets/iconGitHub.png" alt="GitHub Logo">
-          </a>
-          <a href="#">
-            <img src="../assets/iconLinkedInIn.png" alt="Linkedin Logo">
-          </a>
+        <div id="elton">
+          <p class="name"><b>Elton</b> Betoni</p>
+          <p class="subtext">Front-End Developer</p>
+          <img class="icon_git" src="../assets/iconGitHub.png" alt="Ícone do GitHub">
+          <img class="icon_link" src="../assets/iconLinkedInIn.png" alt="Ícone do Linkedin">
         </div>
-        <div>
-          <strong>Fabio <span>Fernandes</span></strong>
-          <span>Front-End Developer</span>
-          <a href="#">
-            <img src="../assets/iconGitHub.png" alt="GitHub Logo">
-          </a>
-          <a href="#">
-            <img src="../assets/iconLinkedInIn.png" alt="Linkedin Logo">
-          </a>
+        <div id="fabio">
+          <p class="name"><b>Fabio</b> Fernandes</p>
+          <p class="subtext">Front-End Developer</p>
+          <img class="icon_git" src="../assets/iconGitHub.png" alt="Ícone do GitHub">
+          <img class="icon_link" src="../assets/iconLinkedInIn.png" alt="Ícone do Linkedin">
         </div>
-        <div>
-          <strong>Renata <span>França</span></strong>
-          <span>Front-End Developer</span>
-          <a href="#">
-            <img src="../assets/iconGitHub.png" alt="GitHub Logo">
-          </a>
-          <a href="#">
-            <img src="../assets/iconLinkedInIn.png" alt="Linkedin Logo">
-          </a>
+        <div id="renata">
+          <p class="name"><b>Renata</b> França</p>
+          <p class="subtext">Front-End Developer</p>
+          <img class="icon_git" src="../assets/iconGitHub.png" alt="Ícone do GitHub">
+          <img class="icon_link" src="../assets/iconLinkedInIn.png" alt="Ícone do Linkedin">
         </div>
       </div>
     </section>
 
     <section>
-      <div>
-        <form>First Name</form>
-        <input type="text">
-        <form>Last Name</form>
-        <input type="text">
-        <form>Subject</form>
-        <input type="text">
-      </div>
-      <div>
-        <p>Message</p>
-        <textarea name="Message" id="Message" cols="30" rows="10"></textarea>
-      </div>
-      <div>
-        <form>
-          <button type="submit">Enviar</button>
-        </form>
+      <div class="box2">
+        <div class="question">
+          <form>First Name</form>
+          <input class="answer" type="text" placeholder="Enter your first name...">
+        </div>
+        <div class="question">
+          <form>Last Name</form>
+          <input class="answer" type="text" placeholder="Enter your last name...">
+        </div>
+        <div id="subject">
+          <form>Subject</form>
+          <input id="subject-input" type="text" placeholder="Enter the subject you want to talk about...">
+          <div class="message">
+            <form>Message</form>
+            <textarea class="message-box" name="message" cols="50" rows="12" placeholder="Type your message here..."></textarea>
+          </div>
+          <button>ENVIAR</button>
+        </div>
       </div>
     </section>
   </main>
