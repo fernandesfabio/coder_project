@@ -36,17 +36,17 @@ header > .interface{
     width: 18.7rem;   
 }
 .menu--desktop ul{
-     list-style: none;  
+    display: flex; 
+    list-style: none;
+     
 }
-.nav--itens{
-    display: inline-block;
+.nav--itens{   
     padding: 0rem 1.5rem;
 }
 .nav--link{
     text-decoration: none;
-    color: #a3a1a1;
-    display: inline-block;
-    font-size: 1.3rem;
+    color: #989696;    
+    font-size: 1.2rem;
     position: relative;     
 }
 .nav--link:hover{
@@ -58,16 +58,31 @@ header > .interface{
     height: 0.3rem;
     background-image: linear-gradient(180deg, #278848 0%, #59A928 100%);
     position: absolute;
-    top: 1.9rem;
+    top: 1.8rem;
     left: 0;
     border-radius: 3.1rem;
-    transition: width 0.3s  ;
+    transition: width 0.5s  ;
 }
 .nav--link:hover::after{
     width: 100%;
 }
+.static{
+    color: #fff;
+    position: relative;
+}
+.static::after{
+    content: " ";
+    width: 100%;
+    height: 0.3rem;
+    background-image: linear-gradient(180deg, #278848 0%, #59A928 100%);
+    position: absolute;
+    top: 1.8rem;
+    left: 0;
+    border-radius: 3.1rem;
+    
+}
 .nav--link i{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin-right: 0.5rem;
 }
 
@@ -85,7 +100,8 @@ h2.title{
     text-align: left;
     text-shadow: 3px 3px 5px #ffffff95 ;
    font-weight: 400;
-   }
+   padding: 2.5rem 4%;
+}
 h2.title span{
     position: absolute;
 }
@@ -106,8 +122,8 @@ h2.title span::after{
     gap: 20px;
 }
 .row img{
-    width: 150px;
-    
+    width: 250px;
+    border-radius: 10px;
     cursor: pointer;
     transition: .2s;
 }
