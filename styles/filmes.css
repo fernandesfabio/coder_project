@@ -115,23 +115,20 @@
         left: 10px;
         border-radius: 3.1rem;
     }
-    .row{
-        padding: 2.5rem 4%;
-        display: flex;
-        justify-content:baseline;
-        gap: 20px;
-    }
-    .row img{
-        width: 250px;
-        border-radius: 10px;
-        cursor: pointer;
-        transition: .2s;
-    }
-    .row img:hover{
-        transform: scale(1.06);
-    }
-    
-    
+   .gallery{
+    min-width: 100vh;
+    width: 80%;
+    outline: 10px solid #000;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+    gap: 30px;
+   }
+   .gallery img{
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+   }
     /* Footer */
     
     footer > .interface{
