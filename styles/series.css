@@ -87,23 +87,8 @@ header > .interface{
     margin-right: 0.5rem;
 }
 
-/* MENU MOBILE */
-
-.btn--open i{
-    display: none;
-    color: #59A928;
-    font-size: 40px;
-   
-}
-.btn--close{
-    padding: 20px 5%;
-}
-.btn--close i{
-    color: #59A928;
-    font-size: 30px;
-}
-
 /* MAIN */
+
 main{
     font-family: 'Montserrat', sans-serif;
     }
